@@ -1,47 +1,40 @@
 using UnityEngine;
-using Valve.VR;
+using Oculus.VR;
 
 public class CueHandler : MonoBehaviour
 {
-    public Transform frontControllerTransform;
-    public Transform backControllerTransform;
+    public OVRInput.Controller frontController = OVRInput.Controller.LTouch;
+    public OVRInput.Controller backController = OVRInput.Controller.RTouch;
     public Transform cueTip;
-
-
     private Rigidbody cueRB;
 
     private float lockOffset;
     private Vector3 cuePos;
     private Vector3 lockForward;
-
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         cueRB = gameObject.GetComponent<Rigidbody>();
     }
 
+    // Update is called once per frame
     void Update()
     {
-        if (frontControllerTransform != null && backControllerTransform != null)
-        {
-            UpdateCuePosition();
-        }
+        UpdateCuePosition();
     }
 
     void UpdateCuePosition()
     {
-        bool triggerPressed = Input.GetButton("Fire1");
-        bool triggerDown = Input.GetButtonDown("Fire1");
+        Vector3 frontPos = OVRInput.GetLocalControllerPosition(frontController);
+        Vector3 backPos = OVRInput.GetLocalControllerPosition(backController);
 
-        Vector3 frontPos = frontControllerTransform.position;
-        Vector3 backPos = backControllerTransform.position;
-
-        if (triggerDown)
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, backController))
         {
             //print("first press");
-            lockForward = transform.forward;
+            lockForward = transform.up;
             lockOffset = (frontPos - backPos).magnitude;
         }
-        else if (triggerPressed)
+        else if (OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger, backController))
         {
             //print("held");
             float currOffset = (frontPos - backPos).magnitude;
@@ -49,24 +42,20 @@ public class CueHandler : MonoBehaviour
         }
         else
         {
-            //print("free");
             cuePos = 0.75f * backPos + 0.25f * frontPos;
             cueRB.MovePosition(cuePos);
-            cueRB.MoveRotation(Quaternion.LookRotation(frontPos - backPos) * Quaternion.Euler(new Vector3(90f, 0f, 0f)));
+            cueRB.MoveRotation(Quaternion.LookRotation(frontPos - backPos) * Quaternion.Euler(90f, 0f, 0f));
         }
     }
 
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter(Collision collision)
     {
-        Rigidbody rb = col.gameObject.GetComponent<Rigidbody>();
-
+        Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         if (!rb)
         {
             return;
         }
-
-        Vector3 forceDirection = (col.contacts[0].point - cueTip.position).normalized;
+        Vector3 forceDirection = (collision.contacts[0].point - cueTip.position).normalized;
         rb.AddForce(forceDirection * cueRB.linearVelocity.magnitude);
-
-    }   
+    }
 }

@@ -81,6 +81,14 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/CueActions/in/FrontControllerPose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/CueActions/in/BackControllerPose",
+      "type": "boolean"
     }
   ],
   "action_sets": [
@@ -98,6 +106,14 @@
     },
     {
       "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/CueActions",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/NewSet",
       "usage": "single"
     }
   ],
