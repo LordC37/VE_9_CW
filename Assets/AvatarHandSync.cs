@@ -1,36 +1,23 @@
 using UnityEngine;
-using Oculus.VR;
+using UnityEngine.XR;
 
 public class AvatarHandSync : MonoBehaviour
 {
-    // 定义左右控制器类型
-    public OVRInput.Controller leftController = OVRInput.Controller.LTouch;
-    public OVRInput.Controller rightController = OVRInput.Controller.RTouch;
-
-    // Avatar 左右手的 Transform
-    public Transform leftHand;
-    public Transform rightHand;
-
-    // Update 每帧调用一次
-    void Update()
+    public Transform hand;
+    public Transform controller;
+    public bool isLeft = false;
+    public Vector3 offset = Vector3.zero;
+    
+    private void LateUpdate()
     {
-        UpdateHandPositions();
-    }
-
-    void UpdateHandPositions()
-    {
-        // 获取左右控制器的位置
-        Vector3 leftPos = OVRInput.GetLocalControllerPosition(leftController);
-        Vector3 rightPos = OVRInput.GetLocalControllerPosition(rightController);
-
-        // 获取左右控制器的旋转
-        Quaternion leftRot = OVRInput.GetLocalControllerRotation(leftController);
-        Quaternion rightRot = OVRInput.GetLocalControllerRotation(rightController);
-
-        // 直接将位置和旋转应用到 Avatar 的手部
-        leftHand.localPosition = leftPos;
-        leftHand.localRotation = leftRot;
-        rightHand.localPosition = rightPos;
-        rightHand.localRotation = rightRot;
+        if (controller && hand)
+        {
+            // 同步手部位置到控制器
+            hand.position = controller.position + offset;
+            hand.rotation = controller.rotation;
+            
+            // 调试信息
+            Debug.Log((isLeft ? "左" : "右") + "手位置: " + hand.position + ", 控制器位置: " + controller.position);
+        }
     }
 }

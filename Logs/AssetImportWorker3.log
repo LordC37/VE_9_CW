@@ -1,29 +1,29 @@
 Using pre-set license
-Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.27788) 64bit Professional' Language: 'zh' Physical Memory: 16004 MB
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16167 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.37f1\Editor\Unity.exe
+E:\Program Files\Unity\Unity 6000.0.34f1\Editor\6000.0.34f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-C:/Users/94528/Desktop/VE_9_CW
+E:/Unity/VE_9_CW
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50784
+1783
 -job-worker-count
-9
+3
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/94528/Desktop/VE_9_CW
-C:/Users/94528/Desktop/VE_9_CW
+Successfully changed project path to: E:/Unity/VE_9_CW
+E:/Unity/VE_9_CW
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,13 @@ C:/Users/94528/Desktop/VE_9_CW
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32828]  Target information:
+Player connection [5280]  Target information:
 
-Player connection [32828]  * "[IP] 172.20.10.7 [Port] 0 [Flags] 2 [Guid] 4187618959 [EditorId] 4187618959 [Version] 1048832 [Id] WindowsEditor(7,TUF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5280]  * "[IP] 172.16.1.255 [Port] 0 [Flags] 2 [Guid] 1144096380 [EditorId] 1144096380 [Version] 1048832 [Id] WindowsEditor(7,LordC-Yoga14s) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32828] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32828] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [5280] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5280] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,67 +76,65 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 14.42 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 67.22 ms, found 15 plugins.
 Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
-Preloading 4 native plugins for Editor in 5.20 ms.
-Initialize engine version: 6000.0.37f1 (090b7797214c)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/94528/Desktop/VE_9_CW/Assets
+Preloading 4 native plugins for Editor in 14.38 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/VE_9_CW/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Renderer: NVIDIA GeForce MX450 (ID=0x1f98)
     Vendor:   NVIDIA
-    VRAM:     5996 MB
-    Driver:   32.0.15.6607
+    VRAM:     1928 MB
+    Driver:   31.0.15.1747
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.37f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Mono path[0] = 'E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Unity/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002918 seconds.
-- Loaded All Assemblies, in  0.432 seconds
+Register platform support module: E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: E:/Program Files/Unity/Unity 6000.0.34f1/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010294 seconds.
+- Loaded All Assemblies, in  0.887 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 307 ms
+Android Extension - Scanning For ADB Devices 572 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.754 seconds
-Domain Reload Profiling: 1184ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  1.369 seconds
+Domain Reload Profiling: 2245ms
+	BeginReloadAssembly (393ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (148ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (163ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (239ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (754ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1370ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (701ms)
+		SetupLoadedEditorAssemblies (1284ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (406ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (149ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			InitializePlatformSupportModulesInManaged (737ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (373ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,17 +143,15 @@ Domain Reload Profiling: 1184ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.950 seconds
+- Loaded All Assemblies, in  1.313 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 17.17 ms, found 15 plugins.
+Refreshing native plugins compatible for Editor in 20.65 ms, found 15 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -163,207 +159,20 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 14.40 ms, found 15 plugins.
-[Synthetic Environments] got match start synth_env_server.exe Bedroom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server.exe GameRoom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server.exe LivingRoom
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom2_3
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom2_4
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom5_6
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom5_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom3_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom1_2
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom1_1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
-[Synthetic Environments] got match start synth_env_server_extra_rooms.exe XRoom1_4
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Meta.XR.Simulator.Utils:ReportInfo (string,string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs:165)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:ParseSynthEnvScript (string) (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:98)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Installer:BuildSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Installer.cs:76)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:RegisterSyntheticEnvironments () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:97)
-Meta.XR.Simulator.Editor.SyntheticEnvironments.Registry:.cctor () (at ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/SyntheticEnvironments/Registry.cs:87)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.meta.xr.simulator@cf37978150d4/Editor/Utils.cs Line: 165)
-
+Refreshing native plugins compatible for Editor in 27.52 ms, found 15 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:312 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@f23ad2c521e1\Runtime\OculusLoader.cs:297 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus\Runtime\OculusLoader.cs:297 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
    --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <a91c06e683e34bc9beda6e2852c04783>:0 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -376,18 +185,18 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
-  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
-  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in C:\Users\Hubert\Desktop\VE_9_CW\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation..cctor () [0x00041] in E:\Unity\VE_9_CW\Assets\Samples\XR Interaction Toolkit\3.0.7\Hands Interaction Demo\Editor\Scripts\HandsSampleProjectValidation.cs:34 
    --- End of inner exception stack trace ---
   at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
   at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <ed969b0e627d471da4848289f9c322df>:0 
    --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <9e6ebc012b944bf1ac9a620fd8e232d1>:0 
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <ed969b0e627d471da4848289f9c322df>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <ed969b0e627d471da4848289f9c322df>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <a91c06e683e34bc9beda6e2852c04783>:0 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -409,103 +218,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.374 seconds
-Domain Reload Profiling: 2318ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  1.982 seconds
+Domain Reload Profiling: 3279ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (658ms)
-		LoadAssemblies (436ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (893ms)
+		LoadAssemblies (635ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (234ms)
-				TypeCache.ScanAssembly (207ms)
-			BuildScriptInfoCaches (72ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (1374ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (296ms)
+				TypeCache.ScanAssembly (264ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1983ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1150ms)
+		SetupLoadedEditorAssemblies (1771ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (807ms)
-			ProcessInitializeOnLoadMethodAttributes (163ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (1273ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+		AwakeInstancesAfterBackupRestoration (11ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.91 ms, found 15 plugins.
-Preloading 4 native plugins for Editor in 0.48 ms.
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 30.05 ms, found 15 plugins.
+Preloading 4 native plugins for Editor in 0.55 ms.
 Unloading 192 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7333 unused Assets / (7.2 MB). Loaded Objects now: 7873.
-Memory consumption went from 200.9 MB to 193.6 MB.
-Total: 22.693200 ms (FindLiveObjects: 2.079000 ms CreateObjectMapping: 1.801500 ms MarkObjects: 14.047500 ms  DeleteObjects: 4.763000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 223510.218187 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonColor.mat
-  artifactKey: Guid(406981998f1234442a4f2eb50cfe07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Materials/BalloonColor.mat using Guid(406981998f1234442a4f2eb50cfe07e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f355991df7bb900fd67148b00bc493aa') in 0.2123626 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/BalloonBounce04.wav
-  artifactKey: Guid(737a6618d669e4740862cd8ddf59e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/BalloonBounce04.wav using Guid(737a6618d669e4740862cd8ddf59e793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f71e3684f91c7a2deac07fdb45e774b') in 0.0523588 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/BalloonBounce07.wav
-  artifactKey: Guid(891b9c1d17e50204a85ebdf71b6670f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/BalloonBounce07.wav using Guid(891b9c1d17e50204a85ebdf71b6670f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b5dce74d23be383d70875f23f77bdf') in 0.0183929 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Models/Balloon.fbx
-  artifactKey: Guid(8c0fbd56181ea0843b1596b4cb0e5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Models/Balloon.fbx using Guid(8c0fbd56181ea0843b1596b4cb0e5498) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40256da1a63c3fc34e25e378d5664fd3') in 0.0686038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.856697 seconds.
-  path: Assets/SteamVR/Models/Materials/floppyHand.mat
-  artifactKey: Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/Models/Materials/floppyHand.mat using Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf9434a4b6e583105da9f74d4c72669') in 0.0264804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/Flower.prefab
-  artifactKey: Guid(8a2487c189a464148aadc3af2effa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/Flower.prefab using Guid(8a2487c189a464148aadc3af2effa7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edf8b7d3c1669b8f1e1856c17f45cb08') in 0.0381086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.395820 seconds.
-  path: Assets/SteamVR/InteractionSystem/Longbow/Sounds/LongbowPullBack04.wav
-  artifactKey: Guid(1b7c76f85bf1034498fefaa3ec8e600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SteamVR/InteractionSystem/Longbow/Sounds/LongbowPullBack04.wav using Guid(1b7c76f85bf1034498fefaa3ec8e600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b608ca9e1ba0a711b21cf15cc752247') in 0.0155998 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Unloading 7327 unused Assets / (6.1 MB). Loaded Objects now: 7853.
+Memory consumption went from 176.9 MB to 170.8 MB.
+Total: 21.066100 ms (FindLiveObjects: 1.842400 ms CreateObjectMapping: 2.087300 ms MarkObjects: 11.987700 ms  DeleteObjects: 5.145700 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
