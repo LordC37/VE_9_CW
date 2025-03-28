@@ -12,10 +12,10 @@ Our game is designed for multiple players, who can build their own tracks and pl
   <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Room_Connect.png">
 </p>
 
-Players can then get different pool cues by choosing different avatar characters. We designed a total of three types of pool cues, the coffee-coloured club can move freely and has a larger hitting point, which is more convenient for hitting the ball; the blue club can only move horizontally, which is convenient for controlling the direction; and the pink club has an aiming line added, and you can choose different cues by changing different avatars to use them.
+Players can then get different pool cues by choosing different avatar characters. We designed a total of three types of pool cues, the coffee-coloured cue can move freely and has a larger hitting point, which is more convenient for hitting the ball; the blue cue can only move horizontally, which is convenient for controlling the direction; and the pink cue has an aiming line added, and you can choose different cues by changing different avatars to use them.
 
 <p align="center">
-  <img width="auto" src=https://github.com/LordC37/VE_9_CW/blob/main/img/Brown_Cue.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Brown_Cue.png">
 </p>
 
 <p align="center">
