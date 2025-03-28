@@ -9,21 +9,21 @@ NOTE that we have tested this game in both the Oculus Quest 2 headset and laptop
 Our game is designed for multiple players, who can build their own tracks and play pool together via the Ubiq platform. To start, players use the Ubiq panel to join a room and connect with other players on different machines.
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Room_Connect.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Room_Connect.png">
 </p>
 
 Players can then get different pool cues by choosing different avatar characters. We designed a total of three types of pool cues, the coffee-coloured club can move freely and has a larger hitting point, which is more convenient for hitting the ball; the blue club can only move horizontally, which is convenient for controlling the direction; and the pink club has an aiming line added, and you can choose different cues by changing different avatars to use them.
 
 <p align="center">
-  <img width="auto" src=https://github.com/LordC37/VE_9_CW/edit/main/img/Brown_Cue.png">
+  <img width="auto" src=https://github.com/LordC37/VE_9_CW/blob/main/img/Brown_Cue.png">
 </p>
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Pink_Cue.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Pink_Cue.png">
 </p>
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Blue_Cue.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Blue_Cue.png">
 </p>
 
 ## Environment
@@ -34,13 +34,13 @@ Ubiq Version: v1.0.0-pre.11
 ## Game Demo
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Demo1.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Demo1.png">
 </p>
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Demo2.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Demo2.png">
 </p>
 
 <p align="center">
-  <img width="auto" src="https://github.com/LordC37/VE_9_CW/edit/main/img/Demo3.png">
+  <img width="auto" src="https://github.com/LordC37/VE_9_CW/blob/main/img/Demo3.png">
 </p>
