@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 281ea090499a3b648829710b673806d3
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 9920
+  packageName: It's A Road Tool
+  packageVersion: 1.4
+  assetPath: Assets/RoadTool/Scripts/RoadUtils.cs
+  uploadId: 68864

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 44fc1eb42f65047fa8840d3185497034
+labels:
+- editor
+- ground
+- lowpoly
+- mesh
+- path
+- procedural
+- road
+- tool
+- easy
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 9920
+  packageName: It's A Road Tool
+  packageVersion: 1.4
+  assetPath: Assets/RoadTool/Editor/RoadTool.cs
+  uploadId: 68864

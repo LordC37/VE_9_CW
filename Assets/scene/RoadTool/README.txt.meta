@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 038a69c34170115449e296c182a1152e
+labels:
+- road
+AssetOrigin:
+  serializedVersion: 1
+  productId: 9920
+  packageName: It's A Road Tool
+  packageVersion: 1.4
+  assetPath: Assets/RoadTool/README.txt
+  uploadId: 68864

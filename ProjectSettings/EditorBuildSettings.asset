@@ -4,16 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Samples/Ubiq/1.0.0-pre.11/Demo (XRI)/Demo.unity
+    guid: 2de505d34345ab340bdde30d419b24eb
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0d6d09ebc8af11e4b93c9aefc2997d63,
-      type: 2}
-    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 7f0bd7551b1a7e54fb76187252da784f,
-      type: 2}
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 9c5cc9041cb7bd94c84b7ad6620057d5,
-      type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
-      guid: bbd997177a24f1f4690919b587ea1b93, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ee692745c3f93a648bae5da11813648c,
-      type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9173eda185ad3bf4c81aff5fb9fc8760, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 41c49b1e7cf092248972ed2fabc1e647, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 146099f60d755784e8c6a9036b0140fa, type: 2}
   m_UseUCBPForAssetBundles: 0
